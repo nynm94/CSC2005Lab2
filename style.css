@@ -4,6 +4,11 @@ body, html {
   overflow: hidden;
 }
 
+body {
+ background-image: url("123.jpg");
+ background-color: #cccccc;
+}
+
 img {
   max-width: 100%;
   height: auto;
