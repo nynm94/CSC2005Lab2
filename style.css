@@ -1,16 +1,32 @@
-.term-grid {
-  max-width: 1000px;
-  margin: auto;
-  color: #222;
-  border-bottom: 1px solid #ddd;
-  padding: 1em 0;
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
 }
 
-.term-grid label:first-child {
-  text-align: right;
+.bg {
+    /* The image used */
+    background-image: url("123.jpg");
+    height:100%;
+    width: 150%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    animation: zoom-out 15s forwards;
 }
-
-/* this is an id */
-#helloWorld {
-  color: #fff;
+@keyframes zoom-out {
+  100%{
+    width: 100%;
+  }
+  
+}
+  
+.fg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:40px;
 }
