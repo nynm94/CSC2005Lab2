@@ -1,0 +1,16 @@
+.term-grid {
+  max-width: 1000px;
+  margin: auto;
+  color: #222;
+  border-bottom: 1px solid #ddd;
+  padding: 1em 0;
+}
+
+.term-grid label:first-child {
+  text-align: right;
+}
+
+/* this is an id */
+#helloWorld {
+  color: #fff;
+}
