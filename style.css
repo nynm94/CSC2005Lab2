@@ -1,17 +1,10 @@
 body, html {
-  height: 100%;
   margin: 0;
   overflow: hidden;
-}
-
-body {
- background-image: url("123.jpg");
- background-color: #cccccc;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  background-image: url("123.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   
 .fg {
